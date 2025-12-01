@@ -20,7 +20,12 @@ The code in this repository includes:
 - Using record linkage and custom logic to classify entities as Parent Companies, Groups, or Mills.  
 - Deduplicating and combining data from multiple sources into a clean, consolidated dataset.
 
-## Example Files
+## Presentation
+
+I’ve also included a presentation summarizing the accomplishments and analysis of my team and me on this project:  
+[Spring IDI Grievances Presentation](https://github.com/tiwaab/palmwatch-project-work/blob/main/Spring%20IDI%20Grievances%20Presentation.pptx)
+
+## Files
 
 - `supply_chain_cleaning.py` – Functions for cleaning raw RSPO and UML data.  
 - `process_supply_chain.py` – Processing pipeline that cleans, classifies, and consolidates entities.  
@@ -29,3 +34,5 @@ The code in this repository includes:
 ## Tools & Libraries
 
 Python, pandas, BeautifulSoup, Selenium, recordlinkage, hashlib
+
+
